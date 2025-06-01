@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(130deg, rgb(97, 7, 97), rgb(17, 17, 128));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.553);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(214, 199, 30, 0.788);
+}
+
+p {
+  margin: 14px 0;
+  font-size: 25px;
+}
+
+#text {
+  width: 65%;
+  padding: 4px 6px;
+  font-size: 15px;
+}
+
+button {
+  width: 80%;
+  margin: 10px;
+  padding: 9px 0;
+  background: rgb(100, 189, 18);
+  font-size: 17px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  transform: scale(0.94);
+}
+
+#QRCode {
+  margin-top: 20px !important;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#QRCode img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+#QRCode.active {
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(214, 199, 30, 0.788);
+}
