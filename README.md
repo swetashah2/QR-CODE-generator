@@ -28,10 +28,6 @@ This is a simple **QR Code Generator Web App** built using **HTML**, **CSS**, an
 ![QR Code Generator Screenshot](./images/screenshot1.png)
 ![QR Code Generator Screenshot](./images/Screenshot2.png)
 ![QR Code Generator Screenshot](./images/alert.png)
-<img src="images/screenshot1.png" alt="QR Code Generator Screenshot" width="400" height="300">
-<img src="images/screenshot2.png" alt="QR Code Generator Screenshot" width="400" height="300">
-<img src="images/alert.png" alt="QR Code Generator Screenshot" width="400" height="300">
-
 
 ---
 
